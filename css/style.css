@@ -63,6 +63,12 @@ h1 {
     cursor: pointer;
 }
 
-.title img:hover{
-    transform: scale(4);
+.right-section img{
+    border-radius: 10px;
+    width: fit-content;
+    height: 300px;
 }
+
+/* .title img:hover{
+    transform: scale(4);
+} */
