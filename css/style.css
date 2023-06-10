@@ -48,3 +48,21 @@ h1 {
 .button:hover{
     background-color: rgb(8, 126, 245);
 }
+
+.title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.title img{
+    height: 50px;
+    transition: .5s ease-in-out;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.title img:hover{
+    transform: scale(4);
+}
