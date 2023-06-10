@@ -71,3 +71,15 @@ footer {
     text-align: center;
     width: 100%;
 }
+
+.title-logo{
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    gap: 10px;
+}
+
+.title-logo img{
+    height: 50px;
+    width: 50px;
+}

@@ -27,10 +27,10 @@ h1 {
     flex-direction: column;
 }
 
-.main-content .left-section p{
+/* .main-content .left-section p{
     transition: .5s;
     padding: 0 10px;
-}
+} */
 
 .main-content .right-section {
     width: 30%;
