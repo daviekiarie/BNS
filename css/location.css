@@ -1,0 +1,42 @@
+.container {
+    width: 100%;
+    margin: 0 auto;
+    padding: 40px 60px; 
+    min-height: calc(100vh - 125px);   
+}
+
+h1 {
+    text-align: center;
+}
+
+/* Location Listing Styles */
+.location-listing {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 20px;
+    margin-top: 20px;
+}
+
+.location-card {
+    border: 1px solid #ccc;
+    padding: 20px; 
+    text-align: center;
+}
+
+.location-card h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.location-card p {
+    margin-bottom: 10px;
+}
+
+.location-card span{
+    font-weight: 500;
+    color: brown;
+}
+
+.location-card a{
+    text-decoration: none;
+}
