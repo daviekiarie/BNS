@@ -6,6 +6,10 @@
     box-sizing: border-box;
 }
 
+body{
+    background: linear-gradient(180deg, #5cd2c6, #fefefe);
+}
+
 .navbar{
     width: calc(100% - 40px);
     display: flex;
