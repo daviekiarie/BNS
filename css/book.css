@@ -1,0 +1,49 @@
+.container {
+    width: fit-content;
+    margin: 0 auto;
+    padding: 40px 60px; 
+    min-height: calc(100vh - 125px);   
+}
+
+h1 {
+    text-align: center;
+  }
+
+  /* Booking Form Styles */
+  .booking-form {
+    width: 500px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    /* border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3); */
+  }
+
+  .booking-form label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+
+  .booking-form input {
+    width: 100%;
+    padding: 10px;
+    font-family: 'Poppins', serif;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+  }
+
+  .booking-form button {
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-family: 'Poppins', serif;
+    background-color: dodgerblue;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+
+  .dropdown{
+    margin-bottom: 20px;
+    padding: 5px 10px;
+  }

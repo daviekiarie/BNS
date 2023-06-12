@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Booking panel | Bikes and Squatters in Cities System</title>
+    <link rel="icon" type="image/png" href="images/logo.png" sizes="32x32">
+    <link rel="stylesheet" href="css/nav.css">
+    <link rel="stylesheet" href="css/book.css">
+</head>
+<body>
+    <nav>
+        <div class="navbar">
+            <div class="logo">
+                <img src="images/1.png" alt="">
+            </div>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="BRs.html">Bike Rentals</a></li>
+            <li><a href="location.html">Locations</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="contact.html">Contacts</a></li>
+            <!-- <li><a href="#">Login</a></li> -->
+          </ul>
+        </div>
+    </nav>
+    <div class="container">
+      <h1>Booking</h1>
+  
+      <div class="booking-form">
+        <form action="#" method="post">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" placeholder="Full Names" required>
+  
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" placeholder="Email Address" required>
+  
+          <label for="phone">Phone</label>
+          <input type="tel" id="phone" name="phone" placeholder="Mobile number" required>
+  
+          <label for="bike-type">Bike Type</label>
+          <select id="bike-type" name="bike-type"  class="dropdown">
+            <option value="">Select Bike Type</option>
+            <option value="mountain">Mountain Bike</option>
+            <option value="city">City Bike</option>
+            <option value="electric">Electric Bike</option>
+          </select>
+
+          <label for="pickup-date">Pickup Date</label>
+          <input type="date" id="pickup-date" name="pickup-date" required>
+  
+          <label for="pickup-time">Pickup Time</label>
+          <input type="time" id="pickup-time" name="pickup-time" required>
+  
+          <button type="submit">Book Now</button>
+        </form>
+      </div>
+    </div>
+    
+    <footer>
+        <p>&copy; 2023 Bike & Squatters Company. All rights reserved.</p>
+    </footer>
+    
+</body>
+</html>
