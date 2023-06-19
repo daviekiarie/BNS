@@ -66,6 +66,7 @@ h1 {
     border-radius: 10px;
     width: fit-content;
     height: 300px;
+    object-fit: cover;
 }
 
 .title img:hover{
