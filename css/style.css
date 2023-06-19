@@ -27,11 +27,6 @@ h1 {
     flex-direction: column;
 }
 
-/* .main-content .left-section p{
-    transition: .5s;
-    padding: 0 10px;
-} */
-
 .main-content .right-section {
     width: 30%;
     overflow: hidden;
@@ -71,7 +66,7 @@ h1 {
     border-radius: 10px;
     width: fit-content;
     height: 300px;
-} */
+}
 
 .title img:hover{
     transform: scale(4);
