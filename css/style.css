@@ -39,7 +39,7 @@ h1 {
 .button{
     background-color: dodgerblue;
     color: #fff;
-    width: fit-content;
+    width: 120px;
     padding: 5px 20px;
     transition: .5s;
     border-radius: 5px;
