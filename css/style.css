@@ -34,6 +34,8 @@ h1 {
 
 .main-content .right-section {
     width: 30%;
+    overflow: hidden;
+    border-radius: 10px;
 }
 
 .button{
